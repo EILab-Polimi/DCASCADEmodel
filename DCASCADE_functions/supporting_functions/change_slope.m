@@ -1,7 +1,7 @@
 function [Slope_t, Node_el_t] = change_slope(Node_el_t, Lngt, Network , min_slope)
 %CHANGE_SLOPE modify the Slope vector according to the changing elevation of
 %the nodes: It also guarantees that the slope is not negative or lower then
-%the min_slope value by changing the node elevation bofore findin the SLlpe
+%the min_slope value by changing the node elevation bofore findin the Slope
 
 %% define minimum reach slope
 if nargin < 4
